@@ -4,6 +4,11 @@ import GameDetails from './pages/GameDetails'
 import ViewGames from './pages/ViewGames'
 import About from './pages/About'
 
-const routes = []
+const routes = [
+  { path: '/', component:Home, name: 'Home' },
+  { path: '/games/:genre_id', component:ViewGames, name:'ViewGames' },
+  { path: '/details/:game_id', component:GameDetails, name: 'GameDetails'},
+  { path: '/about', component:About, name: 'About'}
+]
 
 export default new VueRouter({ routes, mode: 'history' })

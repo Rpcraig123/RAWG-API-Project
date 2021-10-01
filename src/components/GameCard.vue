@@ -1,16 +1,18 @@
 <template>
   <div class="card game-card">
     <div class="image-wrapper">
-      <!-- Image Goes Here -->
+      <img :src='game.background_image' />
     </div>
     <div class="info-wrapper flex-col">
-      <!-- Game Name Goes Here -->
+      <p>{{ game.name }}</p>
+      <h3>Metacritic: {{ game.metacritic }}</h3>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'GenreCard'
+  name: 'GameCard',
+  props: ['game']
 }
 </script>

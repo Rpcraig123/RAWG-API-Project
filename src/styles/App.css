@@ -96,13 +96,13 @@ button {
 .genres {
   width: 100%;
 }
-.genres h2,
+.genres h2 select,
 .search h2 {
   text-align: center;
 }
 
 .game-content .image-container {
-  width: 95vw;
+  width: 75vw;
   margin: auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1em 0;

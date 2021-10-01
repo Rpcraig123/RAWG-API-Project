@@ -1,16 +1,17 @@
 <template>
   <div class="card">
     <div class="image-wrapper">
-      <!-- Image Goes Here -->
+      <img :src='genre.image_background' />
     </div>
     <div class="info-wrapper flex-col">
-      <!-- Genre Name Goes Here -->
+      <p>{{ genre.name }}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'GenreCard'
+  name: 'GenreCard',
+  props: ['genre', 'index']
 }
 </script>
