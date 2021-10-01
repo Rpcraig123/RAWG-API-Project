@@ -96,8 +96,12 @@ button {
 .genres {
   width: 100%;
 }
-.genres h2 select,
+.genres h2,
 .search h2 {
+  text-align: center;
+}
+
+select {
   text-align: center;
 }
 
@@ -129,4 +133,14 @@ button {
 }
 .space {
   justify-content: space-between;
+}
+
+.pageButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sort {
+  display: grid;
+  justify-content: center;
 }

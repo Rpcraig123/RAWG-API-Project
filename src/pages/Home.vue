@@ -14,7 +14,7 @@
         <GenreCard v-on:click.native="(e)=>selectGenre(genre.id)" v-for="(genre, index) in genres" :genre="genre" :key="index" :index="index"/>
       </section>
     </div>
-    <div class="search">
+    <div v-else class="search">
       <h2>Results</h2>
       <section class="container-grid">
         <GameCard v-on:click.native="(e)=>selectGame(game.id)" v-for="game in searchResults" :game="game" :key="game.id" />
