@@ -2,7 +2,7 @@
 ### Date Started: 9/30/21
 ### By: Ryan Craig
 
-[LinkedIn](https://www.linkedin.com/in/ryancraigeit/) | [Deployed Link](https://vercel.com/rpcraig123/rawg-api-project)
+[LinkedIn](https://www.linkedin.com/in/ryancraigeit/) | [Deployed Link]https://rawg-api-project.vercel.app/)
 
 <div>
   <img alt="rawg" src="https://i0.wp.com/operationrainfall.com/wp-content/uploads/2019/06/RAWG-Featured.jpg?fit=1920%2C1080&ssl=1" />
